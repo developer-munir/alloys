@@ -1,8 +1,3 @@
-@media screen and (max-width: 490px) {
-  .banner {
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 749px) {
   .navbar {
     padding: 1rem;
@@ -15,7 +10,7 @@
   }
   .banner {
     height: 50vh;
-    background-size: contain;
+    background-size: cover;
   }
   .banner p {
     font-size: 30px;
@@ -37,9 +32,50 @@
   .exprience-container {
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .exprience-container div {
+    margin-right: 20px;
+    margin-top: 10px;
   }
   .expreince {
     font-size: 50px;
+  }
+  .tech-benner {
+    height: 100%;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .tech-benner {
+    padding: 10px;
+  }
+  .tech-benner .choice {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .card-group {
+    grid-template-columns: 1fr;
+    position: inherit;
+  }
+  .industries-container {
+    border: none;
+  }
+  .industry {
+    padding: 10px;
+  }
+  .industry .serve {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .industries {
+    display: block;
+  }
+  .industries .content {
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 50px;
   }
 }
 
