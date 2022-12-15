@@ -352,3 +352,47 @@
   border-radius: 8px;
   font-size: 20px;
 }
+.submit-btn {
+  background-color: #e82232;
+  padding: 22px 66px;
+  border-radius: 44px;
+  border: none;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+}
+.map {
+  padding: 100px 0;
+}
+.company-info-container {
+  position: relative;
+  right: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #f8f8f8;
+}
+.company-info {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.company-info h1 {
+  font-family: "AvertaStd-Regular";
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #192437;
+  margin-top: 20px;
+}
+.company-info p {
+  font-family: "AvertaStd-Light";
+  font-size: 20px;
+  line-height: 22px;
+  color: #828282;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #828282;
+}
+.map-img {
+  max-width: 100%;
+}
