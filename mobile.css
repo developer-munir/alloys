@@ -77,6 +77,19 @@
   .content {
     margin-top: 50px;
   }
+  .machine-container {
+    padding: 20px;
+  }
+  .thir-line-container img {
+    display: none;
+  }
+  .factory {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .factory div {
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 900px) {
