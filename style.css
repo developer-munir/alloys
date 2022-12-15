@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .body {
   max-width: 1600px;
   background-color: #ffffff;
   margin: 0 auto;
   font-family: "ITC Avant Garde Gothic Std";
+  overflow: hidden;
 }
 
 /* navbar css */
@@ -331,7 +333,6 @@
   padding: 22px 66px;
   border-radius: 44px;
   border: none;
-
   font-weight: 600;
   color: #ffffff;
   font-size: 20px;

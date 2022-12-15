@@ -1,0 +1,23 @@
+@media screen and (max-width: 749px) {
+  .navbar {
+    padding: 1rem;
+  }
+  .brand {
+    display: none;
+  }
+  .banner-section {
+    padding: 0;
+  }
+  .banner {
+    height: 50vh;
+    background-size: contain;
+  }
+  .banner p {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .banner {
+    background-size: cover;
+  }
+}
