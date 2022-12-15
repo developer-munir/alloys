@@ -281,3 +281,24 @@
   font-size: 23.1975px;
   color: #ffffff;
 }
+
+/* --------------------------------------------------------
+         machine
+-------------------------------------------------------------*/
+.companies-container {
+  padding: 100px;
+}
+.companies-brand {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #e82232;
+  text-align: center;
+}
+.companies-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 88px;
+}
