@@ -6,7 +6,8 @@
 }
 .body {
   max-width: 1600px;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
+  margin: 0 auto;
 }
 
 /* navbar css */
@@ -301,4 +302,53 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 88px;
+}
+/* --------------------------------------------------------
+         Get In Touch
+-------------------------------------------------------------*/
+
+.get-in-touch-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.get-in-touch {
+  background-color: #0e3466;
+  padding: 80px;
+}
+.get-in-touch h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  color: #ffffff;
+}
+.get-in-touch hr {
+  padding: 3px;
+  background-color: white;
+  width: 35%;
+  margin-top: 32px;
+  margin-bottom: 38px;
+}
+.input-icons img {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 20px;
+  min-width: 40px;
+  margin-top: 24px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 20px 50px;
+  text-align: start;
+  margin-top: 24px;
+  border-radius: 8px;
+  font-size: 20px;
 }
