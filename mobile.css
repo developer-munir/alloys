@@ -112,6 +112,9 @@
     grid-template-columns: 1fr;
     margin-top: 80px;
   }
+  .get-in-touch {
+    padding: 10px;
+  }
   .company-info-container {
     position: inherit;
     grid-template-columns: 1fr;
@@ -125,11 +128,5 @@
   }
   .footer-third-pera {
     text-align: center;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .experts {
-    margin: 160px 267px;
   }
 }
