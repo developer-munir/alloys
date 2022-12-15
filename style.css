@@ -54,3 +54,69 @@
   font-size: 100px;
   color: #ffffff;
 }
+
+/* main section */
+
+.experts {
+  margin: 160px 267px;
+}
+.team-text {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.best-expart-text {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  margin-top: 23px;
+}
+.experts-content-text {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+  margin: 0 41px;
+}
+.exprience-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.expreince {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.expreince span {
+  color: #ec2232;
+}
+.location {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
