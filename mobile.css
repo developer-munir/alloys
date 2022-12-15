@@ -1,4 +1,9 @@
 @media screen and (max-width: 749px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .navbar {
     padding: 1rem;
   }
@@ -102,6 +107,24 @@
   }
   .companies-logo img {
     margin-top: 10px;
+  }
+  .get-in-touch-container {
+    grid-template-columns: 1fr;
+    margin-top: 80px;
+  }
+  .company-info-container {
+    position: inherit;
+    grid-template-columns: 1fr;
+  }
+  .map-img {
+    margin: 0 auto;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .footer-third-pera {
+    text-align: center;
   }
 }
 
