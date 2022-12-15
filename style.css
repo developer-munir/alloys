@@ -270,14 +270,12 @@
 }
 .factory div p {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 42.1214px;
   color: #ffffff;
 }
 .factory div span {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 23.1975px;
   color: #ffffff;
@@ -291,7 +289,6 @@
 }
 .companies-brand {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 25px;
   color: #e82232;
@@ -317,7 +314,6 @@
 }
 .get-in-touch h1 {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 65px;
   color: #ffffff;
@@ -395,4 +391,46 @@
 }
 .map-img {
   max-width: 100%;
+}
+
+/* --------------------------------------------------------
+         Get In Touch
+-------------------------------------------------------------*/
+.footer {
+  background: #181818;
+  padding: 96px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #ffffff;
+}
+
+.footer-first-pera {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-first-pera ul li {
+  list-style: none;
+}
+
+.industry-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 48px;
+}
+
+.footer-third-pera {
+  text-align: end;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 48px;
 }
