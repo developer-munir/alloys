@@ -8,6 +8,7 @@
   max-width: 1600px;
   background-color: #ffffff;
   margin: 0 auto;
+  font-family: "ITC Avant Garde Gothic Std";
 }
 
 /* navbar css */
@@ -18,7 +19,6 @@
   padding: 1.5rem;
 }
 .brand {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 700;
   font-size: 28.75px;
   line-height: 30px;
@@ -27,12 +27,10 @@
 }
 
 .touch {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 18px;
-  line-height: 18px;
-  letter-spacing: -0.03em;
   color: #222222;
+  border-bottom: 2px solid #222222;
 }
 /* banner section */
 .banner-section {
@@ -47,7 +45,6 @@
   padding: 50px 50px;
 }
 .banner p {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 600;
   font-size: 100px;
   color: #ffffff;
@@ -62,7 +59,6 @@
   margin: 160px 267px;
 }
 .team-text {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 16px;
 
@@ -73,7 +69,6 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .best-expart-text {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 60px;
 
@@ -81,7 +76,6 @@
   margin-top: 23px;
 }
 .experts-content-text {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 300;
   font-size: 18px;
   color: #000000;
@@ -94,7 +88,6 @@
   margin-top: 50px;
 }
 .expreince {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 600;
   font-size: 110px;
 
@@ -105,7 +98,6 @@
   color: #ec2232;
 }
 .location {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 30px;
 
@@ -125,14 +117,12 @@
   height: 897px;
 }
 .approch {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 16px;
 
   color: #ec2232;
 }
 .tech-benner .choice {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 70px;
 
@@ -153,7 +143,6 @@
   max-width: 100%;
 }
 .card p {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 30px;
 
@@ -170,13 +159,11 @@
   padding: 150px;
 }
 .industry .serve {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 600;
   font-size: 90px;
   color: #222222;
 }
 .industry .benchmark {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 300;
   font-size: 25px;
   color: #9198a0;
@@ -202,7 +189,7 @@
 
 .content .number {
   margin-right: 25px;
-  font-family: "ITC Avant Garde Gothic Std";
+
   font-weight: 600;
   font-size: 25px;
   color: #ebd3cd;
@@ -216,13 +203,11 @@
   display: flex;
 }
 .industry-content h1 {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 600;
   font-size: 30px;
   color: #222222;
 }
 .industry-content p {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 300;
   font-size: 16px;
   color: #000000;
@@ -240,13 +225,11 @@
 }
 
 .first-line {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
 }
 .second-line {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 70px;
   color: #ffffff;
@@ -257,7 +240,6 @@
   align-items: center;
 }
 .third-line {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 300;
   font-size: 18px;
   color: #ffffff;
@@ -269,13 +251,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .factory div p {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 42.1214px;
   color: #ffffff;
 }
 .factory div span {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 23.1975px;
   color: #ffffff;
@@ -288,7 +268,6 @@
   padding: 100px;
 }
 .companies-brand {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 25px;
   color: #e82232;
@@ -313,7 +292,6 @@
   padding: 80px;
 }
 .get-in-touch h1 {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 65px;
   color: #ffffff;
@@ -353,7 +331,7 @@
   padding: 22px 66px;
   border-radius: 44px;
   border: none;
-  font-family: "ITC Avant Garde Gothic Std";
+
   font-weight: 600;
   color: #ffffff;
   font-size: 20px;
@@ -371,6 +349,9 @@
 .company-info {
   background-color: #ffffff;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .company-info h1 {
   font-family: "AvertaStd-Regular";
@@ -405,7 +386,6 @@
 }
 
 .footer-first-pera {
-  font-family: "ITC Avant Garde Gothic Std";
   font-weight: 500;
   font-size: 35px;
   line-height: 70px;
@@ -421,7 +401,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
-  font-family: "ITC Avant Garde Gothic Std";
+
   font-weight: 300;
   font-size: 22px;
   line-height: 48px;
@@ -429,7 +409,7 @@
 
 .footer-third-pera {
   text-align: end;
-  font-family: "ITC Avant Garde Gothic Std";
+
   font-weight: 300;
   font-size: 22px;
   line-height: 48px;
