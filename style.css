@@ -18,7 +18,6 @@
 }
 .brand {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 700;
   font-size: 28.75px;
   line-height: 30px;
@@ -28,7 +27,6 @@
 
 .touch {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
@@ -49,7 +47,6 @@
 }
 .banner p {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 600;
   font-size: 100px;
   color: #ffffff;
@@ -65,11 +62,9 @@
 }
 .team-text {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
+
   color: #ec2232;
 }
 .content-container {
@@ -78,20 +73,16 @@
 }
 .best-expart-text {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  line-height: 85px;
-  letter-spacing: -0.02em;
+
   color: #222222;
   margin-top: 23px;
 }
 .experts-content-text {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  line-height: 29px;
   color: #000000;
   margin: 0 41px;
 }
@@ -103,11 +94,9 @@
 }
 .expreince {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 600;
   font-size: 110px;
-  line-height: 85px;
-  letter-spacing: -0.02em;
+
   color: #222222;
 }
 
@@ -116,11 +105,9 @@
 }
 .location {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 30px;
-  line-height: 35px;
-  letter-spacing: -0.02em;
+
   color: #222222;
 }
 
@@ -129,7 +116,7 @@
 -------------------------------------------------------------*/
 .tech-benner {
   background-image: url("./assets/Mask\ group.png");
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 200px;
@@ -138,31 +125,26 @@
 }
 .approch {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
+
   color: #ec2232;
 }
 .tech-benner .choice {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 70px;
-  line-height: 85px;
-  letter-spacing: -0.02em;
+
   color: #222222;
 }
 .card-group {
   position: relative;
-  top: 104px;
+  top: 183px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 44px;
+  gap: 24px;
 }
 .card {
-  height: 670px;
   display: flex;
   flex-direction: column;
 }
@@ -171,12 +153,131 @@
 }
 .card p {
   font-family: "ITC Avant Garde Gothic Std";
-  font-style: normal;
   font-weight: 500;
   font-size: 30px;
-  line-height: 43px;
-  letter-spacing: -0.02em;
+
   color: #222222;
   background-color: #ffffff;
-  padding: 20px 60px;
+  padding: 20px 40px;
+}
+
+/* --------------------------------------------------------
+         Industry
+-------------------------------------------------------------*/
+
+.industry {
+  padding: 150px;
+}
+.industry .serve {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 600;
+  font-size: 90px;
+  color: #222222;
+}
+.industry .benchmark {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 300;
+  font-size: 25px;
+  color: #9198a0;
+  padding: 20px;
+}
+.industries-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 2px solid #ec2232;
+  margin-top: 110px;
+}
+.industries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 56px;
+  gap: 20px;
+}
+.industries-content {
+  margin-top: 30px;
+}
+
+.content .number {
+  margin-right: 25px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 600;
+  font-size: 25px;
+  color: #ebd3cd;
+}
+.content img {
+  margin-right: 30px;
+  height: 100px;
+  width: 100px;
+}
+.industries .content {
+  display: flex;
+}
+.industry-content h1 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 600;
+  font-size: 30px;
+  color: #222222;
+}
+.industry-content p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* --------------------------------------------------------
+         machine
+-------------------------------------------------------------*/
+.machine-container {
+  padding: 100px 170px;
+  background-image: url("./assets/Mask\ group\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-line {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.second-line {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 500;
+  font-size: 70px;
+  color: #ffffff;
+}
+.thir-line-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-line {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 300;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 19px;
+  margin-bottom: 91px;
+}
+.factory {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.factory div p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42.1214px;
+  color: #ffffff;
+}
+.factory div span {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.1975px;
+  color: #ffffff;
 }
