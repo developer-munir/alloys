@@ -35,3 +35,22 @@
   letter-spacing: -0.03em;
   color: #222222;
 }
+/* banner section */
+.banner-section {
+  padding: 0 67px;
+}
+.banner {
+  background-image: url("./assets/Group\ 297.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 50px;
+}
+.banner p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  color: #ffffff;
+}
