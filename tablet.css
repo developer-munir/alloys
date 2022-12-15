@@ -67,7 +67,6 @@
   }
   .footer {
     padding: 20px;
-    grid-template-columns: 1fr;
   }
   .footer-third-pera {
     text-align: start;
@@ -79,5 +78,8 @@
   }
   .companies-logo img {
     margin: 0 10px;
+  }
+  .experts-content-text {
+    margin: 0;
   }
 }
