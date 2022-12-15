@@ -57,6 +57,9 @@
 
 /* main section */
 
+/* --------------------------------------------------------
+         Team Experts
+-------------------------------------------------------------*/
 .experts {
   margin: 160px 267px;
 }
@@ -119,4 +122,61 @@
   line-height: 35px;
   letter-spacing: -0.02em;
   color: #222222;
+}
+
+/* --------------------------------------------------------
+         Technologies
+-------------------------------------------------------------*/
+.tech-benner {
+  background-image: url("./assets/Mask\ group.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px;
+  margin-bottom: 100px;
+  height: 897px;
+}
+.approch {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+.tech-benner .choice {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.card-group {
+  position: relative;
+  top: 104px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 44px;
+}
+.card {
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  max-width: 100%;
+}
+.card p {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  color: #222222;
+  background-color: #ffffff;
+  padding: 20px 60px;
 }
